@@ -10,7 +10,7 @@ gem "puma", "~> 5.0"
 gem "sass-rails", ">= 6"
 gem "importmap-rails"
 gem "hotwire-rails"
-# gem "simple_form"
+gem "simple_form"
 
 # Delayed jobs
 # Use Redis adapter to run Action Cable in production
