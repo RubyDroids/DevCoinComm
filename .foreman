@@ -1,1 +1,1 @@
-.foreman
+procfile: Procfile.dev
