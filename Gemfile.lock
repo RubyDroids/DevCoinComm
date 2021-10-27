@@ -184,9 +184,6 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
-    simple_form (5.1.0)
-      actionpack (>= 5.2)
-      activemodel (>= 5.2)
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -246,7 +243,6 @@ DEPENDENCIES
   rexml (~> 3.2, >= 3.2.4)
   sass-rails (>= 6)
   selenium-webdriver
-  simple_form
   spring
   tzinfo-data (>= 1.2016.7)
   web-console (>= 4.1.0)
