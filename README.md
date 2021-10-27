@@ -1,5 +1,10 @@
 # README
 
+
+# TODO
+
+1. Devise create Account and User
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
