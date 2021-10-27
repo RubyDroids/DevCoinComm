@@ -11,6 +11,7 @@ gem "sass-rails", ">= 6"
 gem "importmap-rails"
 gem "hotwire-rails"
 gem "simple_form"
+gem "country_select"
 
 # Delayed jobs
 # Use Redis adapter to run Action Cable in production
