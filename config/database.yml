@@ -5,15 +5,17 @@ default: &default
 
 development:
   <<: *default
-  host: localhost
-  database: devcoin_dev
-  username: vbruk
+  host: <%= ENV['DATABASE_HOST'] %>
+  database: <%= "#{ENV['DATABASE_NAME']}_dev" %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASS'] %>
 
 test:
   <<: *default
-  host: localhost
-  database: devcoin_test
-  username: vbruk
+  host: <%= ENV['DATABASE_HOST'] %>
+  database: <%= "#{ENV['DATABASE_NAME']}_test" %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASS'] %>
 
 production:
   <<: *default
