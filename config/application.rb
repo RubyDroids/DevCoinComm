@@ -28,5 +28,7 @@ module DevCoin
 
     # For replacing ActiveStorage unique attachments
     config.active_storage.replace_on_assign_to_many = true
+
+    config.hosts << "lvh.me" if Rails.env.development?
   end
 end
